@@ -1,0 +1,20 @@
+About the hyperparameters of the CNN
+
+Padding : 
+Used when the kernel extends beyond the activation map  
+Helps preserve input spatial size
+Zero - padding technique : replace borders by zeros 
+
+Kernel size / filter size :
+Dimensions of the sliding window over the input
+Small kernel sizes > smaller reduction in layer dimensions > extract larger amount of information containing
+    extract local features 
+    deeper architecture
+Large kernel size > extracts less information
+    faster reduction in layer dimensions
+    leading to worse performance
+    better suited to extract features that are larger
+
+Stride : 
+Number of pixels that the kernel should be shifted over at a time
+    Smaller stride > more features are learned because more data is extracted
